@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['var(--font-fa)', 'var(--font-en)', 'system-ui', 'sans-serif'],
+        sans: ['Vazirmatn', 'Inter', 'system-ui', 'sans-serif'],
         mono: ['GeistMono', 'Courier New', 'monospace'],
       },
       animation: {

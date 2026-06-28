@@ -20,7 +20,13 @@ function ScrollRestore() {
 
 function BodyInner({ children }: { children: React.ReactNode }) {
   const { lang, dir } = useI18n();
-  useEffect(() => { document.documentElement.lang = lang; document.documentElement.dir = dir; }, [lang, dir]);
+  useEffect(() => {
+    document.documentElement.lang = lang;
+    document.documentElement.dir = dir;
+    document.body.style.fontFamily = lang === 'en'
+      ? "'Inter', 'Vazirmatn', system-ui, sans-serif"
+      : "'Vazirmatn', 'Inter', system-ui, sans-serif";
+  }, [lang, dir]);
   return <>{children}</>;
 }
 
