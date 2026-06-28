@@ -4,7 +4,20 @@
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/about</loc><priority>0.8</priority></url>
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/services</loc><priority>0.8</priority></url>
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products</loc><priority>0.8</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/electrical-equipment</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/industrial-automation</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/power-plant</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/instrumentation</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/industrial-cables</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/products/switchboards</loc><priority>0.7</priority></url>
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/plc-selection-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/industrial-iot</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/electrical-standards</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/electrical-standards-en</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/vfd-drives-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/motor-control-centers</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/blog/power-quality</loc><priority>0.6</priority></url>
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/contact</loc><priority>0.6</priority></url>
   <url><loc>https://surinsf-site.task-malt-juvenile.workers.dev/faq</loc><priority>0.5</priority></url>
 </urlset>

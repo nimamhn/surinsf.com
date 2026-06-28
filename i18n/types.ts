@@ -4,6 +4,8 @@ export interface T {
   site: { title: string; description: string };
   nav: { logo: string; links: { label: string; href: string }[]; contactLabel: string };
   hero: { name: string; subtitle: string; cta: string };
+  brands: { label: string; title: string; items: { name: string; img: string }[] };
+  gallery: { label: string; title: string; items: { img: string; title: string; cat: string }[] };
   about: { label: string; title: string; description: string; images: string[]; stats: { value: string; label: string }[] };
   services: { label: string; title: string; items: { icon: string; title: string; desc: string }[] };
   products: { label: string; title: string; desc: string; items: { title: string; cat: string; img: string; slug: string; desc_detail: string }[]; cta: string };

@@ -20,6 +20,30 @@ export const en: T = {
     subtitle: 'Trusted supplier of industrial electrical equipment, automation and instrumentation in Iran and the region',
     cta: 'Free Consultation',
   },
+  brands: {
+    label: 'Brands',
+    title: 'Representing Global Brands',
+    items: [
+      { name: 'Siemens', img: '/images/brands/siemens.svg' },
+      { name: 'Schneider Electric', img: '/images/brands/schneider.svg' },
+      { name: 'ABB', img: '/images/brands/abb.svg' },
+      { name: 'Delta', img: '/images/brands/delta.svg' },
+      { name: 'Omron', img: '/images/brands/omron.svg' },
+      { name: 'Mitsubishi', img: '/images/brands/mitsubishi.svg' },
+    ],
+  },
+  gallery: {
+    label: 'Gallery',
+    title: 'Projects & Equipment',
+    items: [
+      { img: '/images/gallery/g1.jpg', title: 'HV Switchboard', cat: 'Project' },
+      { img: '/images/gallery/g2.jpg', title: 'Industrial Control Room', cat: 'Project' },
+      { img: '/images/gallery/g3.jpg', title: 'Automated Production Line', cat: 'Project' },
+      { img: '/images/gallery/g4.jpg', title: 'Instrumentation Equipment', cat: 'Equipment' },
+      { img: '/images/gallery/g5.jpg', title: 'Monitoring System', cat: 'Equipment' },
+      { img: '/images/gallery/g6.jpg', title: 'Engineering Center', cat: 'Office' },
+    ],
+  },
   about: {
     label: 'About Us',
     title: 'Leading Industrial Equipment Supplier',
@@ -88,9 +112,12 @@ export const en: T = {
     title: 'Latest Articles',
     desc: 'Expert articles on industrial electrical, automation and instrumentation',
     articles: [
-      { slug: 'plc-selection-guide', title: 'Complete Guide to Industrial PLC Selection', excerpt: 'Review of available PLCs and key selection criteria for your production line', content: 'Choosing the right PLC is one of the most critical decisions in industrial automation projects. This article reviews available PLCs from leading brands including Siemens, Delta, ABB and Omron.\n\nKey selection factors include I/O count, communication protocols, environmental conditions, and project budget. Siemens S7-1200 series suits small to medium projects while S7-1500 handles large-scale applications.\n\nDelta Electronics offers cost-effective DVP series PLCs with advanced capabilities. Contact our engineering team for final selection guidance.', date: '2025-06-05', cat: 'Automation', img: '/images/blog/plc.jpg' },
+      { slug: 'plc-selection-guide', title: 'Complete Guide to Industrial PLC Selection', excerpt: 'Review of available PLCs and key selection criteria for your production line', content: 'Choosing the right PLC is one of the most critical decisions in industrial automation projects. This article reviews available PLCs from leading brands including Siemens, Delta, ABB and Omron.\n\nKey selection factors include I/O count, communication protocols, environmental conditions, and project budget. Siemens S7-1200 series suits small to medium projects while S7-1500 handles large-scale applications.\n\nDelta Electronics offers cost-effective DVP series PLCs with advanced capabilities.', date: '2025-06-05', cat: 'Automation', img: '/images/blog/plc.jpg' },
       { slug: 'industrial-iot', title: 'Industrial IoT and Smart Manufacturing', excerpt: 'Digital transformation combining traditional automation with IIoT technologies', content: 'Industry 4.0 combines traditional industrial automation with the Internet of Things (IoT) to create smart manufacturing environments. IIoT (Industrial Internet of Things) connects machinery, sensors and control systems via network infrastructure.\n\nBenefits include real-time production monitoring, predictive maintenance, energy optimization, and improved Overall Equipment Effectiveness (OEE).\n\nSurin Sanat Farzan provides comprehensive IIoT solutions from consulting to implementation.', date: '2025-05-20', cat: 'Technology', img: '/images/blog/iot.jpg' },
-      { slug: 'electrical-standards-en', title: 'International Electrical Equipment Standards', excerpt: 'Overview of IEC, NEMA and ISO standards for industrial electrical equipment', content: 'Compliance with international standards ensures quality, safety and reliability in electrical equipment. The most important standards in industrial electrical engineering include:\n\nIEC standards published by the International Electrotechnical Commission are the most common in Europe and Asia. NEMA standards from North America have differences from IEC counterparts.\n\nISO 9001 for quality management and ISO 14001 for environmental management are also widely applied. Choosing standard-compliant equipment represents a long-term investment for industries.', date: '2025-04-10', cat: 'Standards', img: '/images/blog/standards.jpg' },
+      { slug: 'electrical-standards-en', title: 'International Electrical Equipment Standards', excerpt: 'Overview of IEC, NEMA and ISO standards for industrial electrical equipment', content: 'Compliance with international standards ensures quality, safety and reliability in electrical equipment. The most important standards in industrial electrical engineering include:\n\nIEC standards published by the International Electrotechnical Commission are the most common in Europe and Asia. NEMA standards from North America have differences from IEC counterparts.\n\nISO 9001 for quality management and ISO 14001 for environmental management are also widely applied.', date: '2025-04-10', cat: 'Standards', img: '/images/blog/standards.jpg' },
+      { slug: 'vfd-drives-guide', title: 'Complete Guide to Variable Frequency Drives', excerpt: 'Applications, benefits and key considerations for selecting the right VFD drive', content: 'Variable Frequency Drives (VFD) are essential for optimizing energy consumption and precise motor control. This article covers VFD types and their industrial applications.\n\nVFDs reduce energy consumption by up to 50% by controlling AC motor speed. Leading brands include Siemens, Delta, ABB and Schneider.\n\nSelecting the right VFD depends on motor power, load type, and environmental conditions.', date: '2025-03-05', cat: 'Equipment', img: '/images/blog/vfd.jpg' },
+      { slug: 'motor-control-centers', title: 'MCC Panels and Motor Control', excerpt: 'Design principles and construction of motor control centers per international standards', content: 'Motor Control Centers (MCC) are essential components of industrial power distribution. These panels are designed for centralized control of electric motors.\n\nMCCs offer benefits including reduced floor space, ease of maintenance, increased safety, and centralized monitoring capabilities.\n\nSurin Sanat Farzan designs and manufactures MCC panels per IEC 61439 standards.', date: '2025-02-15', cat: 'Switchboard', img: '/images/blog/mcc.jpg' },
+      { slug: 'power-quality', title: 'Power Quality and Harmonic Mitigation', excerpt: 'Methods for improving power quality and reducing harmful harmonics in electrical networks', content: 'Power quality is a critical challenge in modern industries. Harmonics, voltage fluctuations and flicker can damage sensitive equipment.\n\nSolutions include active and passive harmonic filters, UPS systems, and reactive power compensators.\n\nOur engineering team provides consulting and implementation of power quality improvement solutions.', date: '2025-01-20', cat: 'Electrical', img: '/images/blog/power-quality.jpg' },
     ],
   },
   footer: {

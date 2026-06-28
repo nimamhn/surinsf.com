@@ -5,12 +5,15 @@ import gsap from 'gsap';
 import Link from 'next/link';
 import { useI18n } from '@/i18n';
 import ScrollReveal from '@/components/ScrollReveal';
+import BrandsGrid from '@/components/BrandsGrid';
+import GallerySection from '@/components/GallerySection';
 import { ChevronLeft, Star, ArrowUpRight, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   const { t } = useI18n();
   const heroRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
+  const bgRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (titleRef.current) {
@@ -19,13 +22,22 @@ export default function Home() {
     if (heroRef.current) {
       gsap.fromTo(heroRef.current.querySelectorAll('.float-el'), { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1, stagger: 0.2, ease: 'power3.out', delay: 0.8 });
     }
+    if (bgRef.current) {
+      const onMove = (e: MouseEvent) => {
+        const x = (e.clientX / window.innerWidth - 0.5) * 20;
+        const y = (e.clientY / window.innerHeight - 0.5) * 20;
+        gsap.to(bgRef.current, { x, y, duration: 1, ease: 'power2.out' });
+      };
+      window.addEventListener('mousemove', onMove);
+      return () => window.removeEventListener('mousemove', onMove);
+    }
   }, []);
 
   return (
     <>
       <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-surface via-surface-light to-surface" />
-        <div className="absolute inset-0 opacity-30" style={{ background: 'radial-gradient(circle at 50% 50%, rgba(0,112,243,0.15) 0%, transparent 50%)' }} />
+        <div ref={bgRef} className="absolute inset-0 bg-gradient-to-b from-surface via-surface-light to-surface" />
+        <div className="absolute inset-0 opacity-30" style={{ background: 'radial-gradient(circle at 50% 50%, rgba(0,112,243,0.15) 0%, transparent 50%)', transform: 'translateZ(0)' }} />
         <div className="relative z-10 text-center max-w-5xl mx-auto px-6">
           <div className="mb-6 float-el">
             <span className="inline-block px-4 py-1.5 text-xs font-medium bg-brand-700/20 text-brand-400 border border-brand-700/30 rounded-full">
@@ -202,6 +214,9 @@ export default function Home() {
           </ScrollReveal>
         </div>
       </section>
+
+      <BrandsGrid />
+      <GallerySection />
 
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-6">

@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ThreeBackground from '@/components/ThreeBackground';
 import QuickContact from '@/components/QuickContact';
+import AnimatedPage from '@/components/AnimatedPage';
 import './globals.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -51,6 +52,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://surinsf-site.task-malt-juvenile.workers.dev" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+        <script dangerouslySetInnerHTML={{
+          __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');",
+        }} />
         <meta name="twitter:title" content="سورین صنعت فرزان" />
         <meta name="twitter:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -76,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <ScrollRestore />
             <ThreeBackground />
             <Navbar />
-            <main className="relative z-10 pt-16">{children}</main>
+            <main className="relative z-10 pt-16"><AnimatedPage>{children}</AnimatedPage></main>
             <QuickContact />
             <Footer />
           </BodyInner>
