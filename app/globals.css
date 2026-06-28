@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-surface: #0a0a0f;
+    --color-surface-light: #12121a;
+    --color-surface-lighter: #1a1a2e;
+    --color-border: #2a2a3e;
+    --color-primary: #0070f3;
+    --color-accent: #00d4ff;
+    --color-text: #f0f0f5;
+    --color-text-muted: #8888a0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-surface);
+    color: var(--color-text);
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--color-surface); }
+  ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 to-cyan-400;
+  }
+
+  .glass {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-24;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 40px rgba(0,112,243,0.3), 0 0 80px rgba(0,112,243,0.1);
+  }
+}
