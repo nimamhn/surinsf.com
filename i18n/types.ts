@@ -10,7 +10,7 @@ export interface T {
   testimonials: { label: string; title: string; items: { quote: string; author: string; role: string; company: string }[] };
   contact: { label: string; title: string; subtitle: string; form: { name: string; email: string; phone: string; message: string; submit: string; success: string }; info: { address: string; phone: string; email: string; hours: string } };
   faq: { label: string; title: string; items: { q: string; a: string }[] };
-  blog: { label: string; title: string; articles: { title: string; excerpt: string; date: string; cat: string }[] };
+  blog: { label: string; title: string; desc: string; articles: { title: string; excerpt: string; date: string; cat: string; img: string }[] };
   footer: { desc: string; rights: string };
   common: { langSwitch: string; loading: string; home: string; about: string; services: string; products: string; blog: string; contact: string; faq: string };
 }

@@ -85,10 +85,11 @@ export const en: T = {
   blog: {
     label: 'Blog',
     title: 'Latest Articles',
+    desc: 'Expert articles on industrial electrical, automation and instrumentation',
     articles: [
-      { title: 'Complete Guide to Industrial PLC Selection', excerpt: 'Review of available PLCs and key selection criteria for your industry', date: '2025-06-05', cat: 'Automation' },
-      { title: 'Industrial IoT and Smart Manufacturing', excerpt: 'Digital transformation combining traditional automation with IIoT technologies', date: '2025-05-20', cat: 'Technology' },
-      { title: 'International Electrical Equipment Standards', excerpt: 'Overview of IEC, NEMA and ISO standards for industrial electrical equipment', date: '2025-04-10', cat: 'Standards' },
+      { title: 'Complete Guide to Industrial PLC Selection', excerpt: 'Review of available PLCs and key selection criteria for your production line', date: '2025-06-05', cat: 'Automation', img: '/images/blog/plc.jpg' },
+      { title: 'Industrial IoT and Smart Manufacturing', excerpt: 'Digital transformation combining traditional automation with IIoT technologies', date: '2025-05-20', cat: 'Technology', img: '/images/blog/iot.jpg' },
+      { title: 'International Electrical Equipment Standards', excerpt: 'Overview of IEC, NEMA and ISO standards for industrial electrical equipment', date: '2025-04-10', cat: 'Standards', img: '/images/blog/standards.jpg' },
     ],
   },
   footer: {

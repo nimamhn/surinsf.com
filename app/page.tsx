@@ -5,7 +5,7 @@ import gsap from 'gsap';
 import Link from 'next/link';
 import { useI18n } from '@/i18n';
 import ScrollReveal from '@/components/ScrollReveal';
-import { ChevronLeft, Star, ArrowUpRight } from 'lucide-react';
+import { ChevronLeft, Star, ArrowUpRight, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   const { t } = useI18n();
@@ -160,6 +160,44 @@ export default function Home() {
               </ScrollReveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-24 relative">
+        <div className="max-w-7xl mx-auto px-6">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="text-xs tracking-widest text-brand-400 uppercase">{t.blog.label}</span>
+              <h2 className="text-3xl md:text-5xl font-bold mt-3">{t.blog.title}</h2>
+              <p className="text-white/50 mt-4 max-w-xl mx-auto">{t.blog.desc}</p>
+            </div>
+          </ScrollReveal>
+          <div className="grid md:grid-cols-3 gap-6">
+            {t.blog.articles.slice(0, 3).map((a, i) => (
+              <ScrollReveal key={a.title} delay={i * 0.1}>
+                <article className="glass rounded-2xl overflow-hidden group hover:border-brand-700/40 transition-all duration-500 h-full flex flex-col">
+                  <div className="aspect-video overflow-hidden">
+                    <img src={a.img} alt={a.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  </div>
+                  <div className="p-5 flex-1 flex flex-col">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-brand-700/20 text-brand-400">{a.cat}</span>
+                      <span className="text-xs text-white/30">{a.date}</span>
+                    </div>
+                    <h3 className="font-semibold mb-2 group-hover:text-brand-400 transition-colors">{a.title}</h3>
+                    <p className="text-sm text-white/50 leading-relaxed flex-1">{a.excerpt}</p>
+                  </div>
+                </article>
+              </ScrollReveal>
+            ))}
+          </div>
+          <ScrollReveal delay={0.3}>
+            <div className="text-center mt-10">
+              <Link href="/blog" className="inline-flex items-center gap-2 text-brand-400 hover:text-brand-300 transition-colors">
+                {t.blog.label} <ArrowRight size={16} />
+              </Link>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
