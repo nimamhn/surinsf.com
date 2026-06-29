@@ -36,7 +36,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-6 border-t border-white/5 text-center text-xs text-white/30">{t.footer.rights}</div>
+        <div className="pt-6 border-t border-white/5 text-center text-xs text-white/30">
+          <p>{t.footer.rights}</p>
+          <p className="mt-1 text-white/20">
+            {t.footer.developer} : <a href="https://mohammadmehrani.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-brand-400 transition-colors">{t.footer.devName}</a>
+          </p>
+        </div>
       </div>
     </footer>
   );

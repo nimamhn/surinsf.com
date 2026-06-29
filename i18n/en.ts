@@ -123,6 +123,8 @@ export const en: T = {
   footer: {
     desc: 'Surin Sanat Farzan, a reliable supplier of industrial electrical equipment, automation and instrumentation in Iran and the region',
     rights: '© 2025 Surin Sanat Farzan. All rights reserved.',
+    developer: 'Developer',
+    devName: 'Mohammad Mehrani',
   },
   notFound: { title: 'Page Not Found', desc: 'Sorry, the page you are looking for does not exist.' },
   common: { langSwitch: 'فارسی', loading: 'Loading...', home: 'Home', about: 'About', services: 'Services', products: 'Products', blog: 'Blog', contact: 'Contact', faq: 'FAQ' },
