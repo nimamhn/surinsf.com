@@ -25,9 +25,7 @@ function BodyInner({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = dir;
-    document.body.style.fontFamily = lang === 'en'
-      ? "'Inter', 'Vazirmatn', system-ui, sans-serif"
-      : "'Vazirmatn', 'Inter', system-ui, sans-serif";
+    document.body.style.fontFamily = "'Vazirmatn', system-ui, sans-serif";
     document.title = t.site.title;
     const desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute('content', t.site.description);
@@ -80,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }),
         }} />
       </head>
-      <body className="font-sans">
+      <body className="font-vazir">
         <LangProvider>
           <BodyInner>
             <ScrollRestore />
