@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             name: 'سورین صنعت فرزان',
             alternateName: 'Surin Sanat Farzan',
             url: 'https://surinsf-site.task-malt-juvenile.workers.dev',
-            logo: 'https://surinsf-site.task-malt-juvenile.workers.dev/images/p1.jpg',
+            logo: '/images/p1.svg',
             contactPoint: { '@type': 'ContactPoint', telephone: '+982122201734', contactType: 'customer service' },
             address: { '@type': 'PostalAddress', addressLocality: 'Tehran', addressCountry: 'IR' },
           }),

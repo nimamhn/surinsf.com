@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0a0a15"/></linearGradient>
+    <linearGradient id="genbody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a5a"/><stop offset="1" stop-color="#1a2a3a"/></linearGradient>
+    <linearGradient id="genmain" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a5a6a"/><stop offset="1" stop-color="#2a3a4a"/></linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cc8844"/><stop offset="1" stop-color="#aa6622"/></linearGradient>
+    <linearGradient id="exhaust" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#667788"/><stop offset="1" stop-color="#445566"/></linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffcc00"/><stop offset="1" stop-color="#cc9900"/></linearGradient>
+    <filter id="shadow3"><feDropShadow dx="3" dy="3" stdDeviation="5" flood-opacity="0.5"/></filter>
+    <filter id="glow3"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg3)"/>
+  <rect x="40" y="80" width="520" height="260" rx="12" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#shadow3)"/>
+  <rect x="50" y="90" width="240" height="240" rx="6" fill="url(#genbody)" stroke="#5a6a7a" stroke-width="1.5"/>
+  <rect x="60" y="100" width="220" height="220" rx="4" fill="url(#genmain)" stroke="#6a7a8a" stroke-width="1"/>
+  <rect x="70" y="110" width="200" height="200" rx="3" fill="#3a4a5a" stroke="#7a8a9a" stroke-width="1"/>
+  <circle cx="170" cy="210" r="70" fill="#2a3a4a" stroke="#8a9aaa" stroke-width="2"/>
+  <circle cx="170" cy="210" r="50" fill="#3a4a5a" stroke="#6a7a8a" stroke-width="1"/>
+  <circle cx="170" cy="210" r="30" fill="#4a5a6a" stroke="#5a6a7a" stroke-width="1"/>
+  <circle cx="170" cy="210" r="10" fill="#6a7a8a"/>
+  <g opacity="0.3">
+    <path d="M170 140 A70 70 0 0 1 230 240" fill="none" stroke="#00aaff" stroke-width="8" filter="url(#glow3)"/>
+    <path d="M170 140 A70 70 0 0 0 110 240" fill="none" stroke="#ff4400" stroke-width="8" filter="url(#glow3)"/>
+  </g>
+  <rect x="120" y="290" width="100" height="30" rx="3" fill="#1a1a2e" stroke="#556677" stroke-width="1"/>
+  <text x="170" y="310" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">DIESEL ENGINE</text>
+  <rect x="300" y="100" width="250" height="200" rx="6" fill="#1e1e32" stroke="#4a6a8a" stroke-width="1.5"/>
+  <rect x="310" y="110" width="80" height="130" rx="4" fill="#2a2a3e" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="350" y="135" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">UPS</text>
+  <rect x="320" y="145" width="60" height="40" rx="3" fill="#1a2a1a" stroke="#44aa44" stroke-width="1"/>
+  <text x="350" y="170" text-anchor="middle" fill="#44ff44" font-family="monospace" font-size="9" filter="url(#glow3)">ON</text>
+  <rect x="320" y="192" width="60" height="40" rx="3" fill="#1a1a2e" stroke="#556677" stroke-width="1"/>
+  <text x="350" y="217" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="7">BATTERY</text>
+  <rect x="400" y="110" width="140" height="130" rx="4" fill="#2a2a3e" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="470" y="135" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">TRANSFORMER</text>
+  <rect x="415" y="145" width="110" height="85" rx="3" fill="#1a1a2e" stroke="#6688aa" stroke-width="1"/>
+  <g opacity="0.7">
+    <text x="470" y="165" text-anchor="middle" fill="#cc8844" font-family="monospace" font-size="12" font-weight="bold">⚡</text>
+    <text x="470" y="185" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">2000 kVA</text>
+    <text x="470" y="200" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">11/0.4 kV</text>
+    <text x="470" y="218" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">Dyn11</text>
+  </g>
+  <rect x="300" y="245" width="250" height="45" rx="4" fill="#1e1e32" stroke="#4a6a8a" stroke-width="1"/>
+  <text x="425" y="265" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">CONTROL PANEL</text>
+  <circle cx="330" cy="275" r="8" fill="#ff4444"/><circle cx="355" cy="275" r="8" fill="#44ff44"/>
+  <circle cx="380" cy="275" r="8" fill="#ffaa00"/>
+  <rect x="395" y="267" width="70" height="16" rx="3" fill="#1a1a2e" stroke="#556677" stroke-width="1"/>
+  <text x="430" y="279" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="7">AUTO</text>
+  <rect x="310" y="100" width="230" height="15" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="425" y="112" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">POWER PLANT CONTROL SYSTEM</text>
+  <rect x="50" y="345" width="500" height="25" rx="4" fill="#0a0a15" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="150" y="362" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">DIESEL GENERATOR 1500 kVA</text>
+  <text x="350" y="362" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">STANDBY POWER SOLUTION</text>
+  <text x="500" y="362" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">ISO 8528</text>
+  <rect x="10" y="380" width="580" height="10" rx="3" fill="#0a0a15" stroke="#1a2a3a" stroke-width="0.5"/>
+</svg>

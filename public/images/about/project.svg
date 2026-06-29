@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><linearGradient id="bgp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><linearGradient id="planbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2a3a"/><stop offset="1" stop-color="#0a1a2a"/></linearGradient><linearGradient id="linec" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4488ff"/><stop offset="1" stop-color="#44ccff"/></linearGradient><filter id="shp"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="300" fill="url(#bgp)"/>
+  <rect x="20" y="20" width="360" height="260" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#shp)"/>
+  <rect x="30" y="30" width="340" height="240" rx="5" fill="#222238" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="38" y="38" width="324" height="160" rx="4" fill="url(#planbg)" stroke="#3a5a7a" stroke-width="1"/>
+  <rect x="45" y="45" width="70" height="50" rx="2" fill="#12121e" stroke="#4a6a8a" stroke-width="0.5"/>
+  <text x="80" y="65" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">PHASE 1</text>
+  <text x="80" y="82" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="11">✓</text>
+  <rect x="125" y="45" width="70" height="50" rx="2" fill="#12121e" stroke="#4a6a8a" stroke-width="0.5"/>
+  <text x="160" y="65" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">PHASE 2</text>
+  <text x="160" y="82" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="11">✓</text>
+  <rect x="205" y="45" width="70" height="50" rx="2" fill="#12121e" stroke="#4a6a8a" stroke-width="0.5"/>
+  <text x="240" y="65" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">PHASE 3</text>
+  <text x="240" y="82" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="11">✓</text>
+  <rect x="285" y="45" width="70" height="50" rx="2" fill="#12121e" stroke="#4a6a8a" stroke-width="0.5"/>
+  <text x="320" y="65" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">PHASE 4</text>
+  <text x="320" y="82" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="9">75%</text>
+  <rect x="45" y="103" width="310" height="4" rx="2" fill="#2a3a3a" stroke="#3a4a4a" stroke-width="0.5"/>
+  <rect x="45" y="103" width="240" height="4" rx="2" fill="url(#linec)" opacity="0.7"/>
+  <text x="310" y="106" fill="#4488ff" font-family="monospace" font-size="6">75% COMPLETE</text>
+  <rect x="45" y="115" width="310" height="30" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="200" y="135" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="9">PROJECT: PETROCHEMICAL PLANT</text>
+  <rect x="45" y="150" width="310" height="40" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="80" y="168" fill="#667788" font-family="monospace" font-size="7">CLIENT: PARS OIL CO.</text>
+  <text x="250" y="168" fill="#667788" font-family="monospace" font-size="7">VALUE: $4.2M</text>
+  <text x="80" y="183" fill="#667788" font-family="monospace" font-size="7">DEADLINE: Q3 1404</text>
+  <text x="250" y="183" fill="#ffaa44" font-family="monospace" font-size="7">ON TRACK ✓</text>
+  <rect x="38" y="208" width="120" height="55" rx="4" fill="#1a1a2e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="98" y="228" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">COMPLETED</text>
+  <text x="98" y="248" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="14">47</text>
+  <text x="98" y="258" text-anchor="middle" fill="#667788" font-family="monospace" font-size="6">PROJECTS</text>
+  <rect x="168" y="208" width="100" height="55" rx="4" fill="#1a1a2e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="218" y="228" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">IN PROGRESS</text>
+  <text x="218" y="248" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="14">12</text>
+  <text x="218" y="258" text-anchor="middle" fill="#667788" font-family="monospace" font-size="6">PROJECTS</text>
+  <rect x="278" y="208" width="80" height="55" rx="4" fill="#1a1a2e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="318" y="228" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">CLIENTS</text>
+  <text x="318" y="248" text-anchor="middle" fill="#4488ff" font-family="monospace" font-size="14">35+</text>
+</svg>

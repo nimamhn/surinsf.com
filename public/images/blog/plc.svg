@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs><linearGradient id="bgplc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><filter id="sh"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="260" fill="url(#bgplc)"/>
+  <rect x="20" y="15" width="360" height="230" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#sh)"/>
+  <rect x="30" y="25" width="340" height="210" rx="5" fill="#222238" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="38" y="33" width="324" height="30" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="200" y="53" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="11">PLC SELECTION GUIDE</text>
+  <rect x="38" y="70" width="155" height="100" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="45" y="77" width="60" height="80" rx="3" fill="#2a3040" stroke="#5a7a9a" stroke-width="1"/>
+  <g fill="#1a1a2e" stroke="#556677" stroke-width="0.5">
+    <rect x="50" y="83" width="10" height="12" rx="1"/><rect x="63" y="83" width="10" height="12" rx="1"/>
+    <rect x="76" y="83" width="10" height="12" rx="1"/><rect x="89" y="83" width="10" height="12" rx="1"/>
+    <rect x="50" y="99" width="10" height="12" rx="1"/><rect x="63" y="99" width="10" height="12" rx="1"/>
+    <rect x="76" y="99" width="10" height="12" rx="1"/><rect x="89" y="99" width="10" height="12" rx="1"/>
+    <rect x="50" y="115" width="10" height="12" rx="1"/><rect x="63" y="115" width="10" height="12" rx="1"/>
+    <rect x="76" y="115" width="10" height="12" rx="1"/><rect x="89" y="115" width="10" height="12" rx="1"/>
+    <rect x="50" y="131" width="10" height="12" rx="1"/><rect x="63" y="131" width="10" height="12" rx="1"/>
+    <rect x="76" y="131" width="10" height="12" rx="1"/><rect x="89" y="131" width="10" height="12" rx="1"/>
+  </g>
+  <text x="135" y="95" fill="#88bbdd" font-family="monospace" font-size="9">S7-1200</text>
+  <text x="135" y="112" fill="#667788" font-family="monospace" font-size="7">24 DI / 16 DO</text>
+  <text x="135" y="128" fill="#667788" font-family="monospace" font-size="7">8 AI / 4 AO</text>
+  <text x="135" y="145" fill="#ffaa44" font-family="monospace" font-size="7">PROFINET</text>
+  <rect x="38" y="178" width="155" height="50" rx="4" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="115" y="200" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="9">SIEMENS</text>
+  <text x="115" y="218" text-anchor="middle" fill="#667788" font-family="monospace" font-size="7">SIMATIC</text>
+  <rect x="205" y="70" width="155" height="100" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="212" y="77" width="60" height="80" rx="3" fill="#2a3040" stroke="#5a7a9a" stroke-width="1"/>
+  <g fill="#1a1a2e" stroke="#556677" stroke-width="0.5">
+    <rect x="217" y="83" width="10" height="12" rx="1"/><rect x="230" y="83" width="10" height="12" rx="1"/>
+    <rect x="243" y="83" width="10" height="12" rx="1"/><rect x="256" y="83" width="10" height="12" rx="1"/>
+    <rect x="217" y="99" width="10" height="12" rx="1"/><rect x="230" y="99" width="10" height="12" rx="1"/>
+    <rect x="243" y="99" width="10" height="12" rx="1"/><rect x="256" y="99" width="10" height="12" rx="1"/>
+    <rect x="217" y="115" width="10" height="12" rx="1"/><rect x="230" y="115" width="10" height="12" rx="1"/>
+    <rect x="243" y="115" width="10" height="12" rx="1"/><rect x="256" y="115" width="10" height="12" rx="1"/>
+    <rect x="217" y="131" width="10" height="12" rx="1"/><rect x="230" y="131" width="10" height="12" rx="1"/>
+    <rect x="243" y="131" width="10" height="12" rx="1"/><rect x="256" y="131" width="10" height="12" rx="1"/>
+  </g>
+  <text x="300" y="95" fill="#88bbdd" font-family="monospace" font-size="9">DVP-SE</text>
+  <text x="300" y="112" fill="#667788" font-family="monospace" font-size="7">16 DI / 8 DO</text>
+  <text x="300" y="128" fill="#667788" font-family="monospace" font-size="7">4 AI / 2 AO</text>
+  <text x="300" y="145" fill="#ffaa44" font-family="monospace" font-size="7">Modbus TCP</text>
+  <rect x="205" y="178" width="155" height="50" rx="4" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="282" y="200" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="9">DELTA</text>
+  <text x="282" y="218" text-anchor="middle" fill="#667788" font-family="monospace" font-size="7">DVP SERIES</text>
+</svg>

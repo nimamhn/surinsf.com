@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><linearGradient id="gbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><linearGradient id="gcab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3a4a"/><stop offset="1" stop-color="#1a2a3a"/></linearGradient><linearGradient id="gdoor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a4a5a"/><stop offset="1" stop-color="#2a3a4a"/></linearGradient><filter id="gsh"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="300" fill="url(#gbg)"/>
+  <rect x="20" y="20" width="360" height="260" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#gsh)"/>
+  <rect x="30" y="30" width="160" height="240" rx="5" fill="url(#gcab)" stroke="#5a6a7a" stroke-width="1.5"/>
+  <rect x="37" y="37" width="146" height="226" rx="3" fill="url(#gcab)" stroke="#6a7a8a" stroke-width="1"/>
+  <rect x="44" y="44" width="132" height="50" rx="3" fill="url(#gdoor)" stroke="#7a8a9a" stroke-width="1"/>
+  <text x="110" y="68" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="9">INCOMING</text>
+  <text x="110" y="82" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">630A / 11kV</text>
+  <rect x="44" y="100" width="132" height="50" rx="3" fill="url(#gdoor)" stroke="#7a8a9a" stroke-width="1"/>
+  <text x="110" y="124" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="9">FEEDER 1</text>
+  <text x="110" y="138" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">250A</text>
+  <rect x="44" y="156" width="132" height="50" rx="3" fill="url(#gdoor)" stroke="#7a8a9a" stroke-width="1"/>
+  <text x="110" y="180" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="9">FEEDER 2</text>
+  <text x="110" y="194" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">250A</text>
+  <rect x="44" y="212" width="132" height="50" rx="3" fill="url(#gdoor)" stroke="#7a8a9a" stroke-width="1"/>
+  <text x="110" y="236" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="9">BUS COUPLER</text>
+  <text x="110" y="250" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">630A</text>
+  <rect x="205" y="30" width="175" height="240" rx="5" fill="url(#gcab)" stroke="#5a6a7a" stroke-width="1.5"/>
+  <rect x="212" y="37" width="161" height="226" rx="3" fill="#1e1e32" stroke="#6a7a8a" stroke-width="1"/>
+  <rect x="219" y="44" width="147" height="50" rx="3" fill="#12121e" stroke="#5a6a7a" stroke-width="1"/>
+  <text x="293" y="68" text-anchor="middle" fill="#ff4444" font-family="monospace" font-size="9">RELAY PANEL</text>
+  <rect x="219" y="100" width="147" height="82" rx="3" fill="#12121e" stroke="#5a6a7a" stroke-width="1"/>
+  <g stroke="#556677" stroke-width="0.5" fill="#1a1a2e">
+    <rect x="226" y="107" width="32" height="24" rx="2"/><rect x="262" y="107" width="32" height="24" rx="2"/>
+    <rect x="298" y="107" width="32" height="24" rx="2"/><rect x="334" y="107" width="32" height="24" rx="2"/>
+    <rect x="226" y="136" width="32" height="24" rx="2"/><rect x="262" y="136" width="32" height="24" rx="2"/>
+    <rect x="298" y="136" width="32" height="24" rx="2"/><rect x="334" y="136" width="32" height="24" rx="2"/>
+  </g>
+  <rect x="219" y="188" width="147" height="74" rx="3" fill="#12121e" stroke="#5a6a7a" stroke-width="1"/>
+  <text x="293" y="210" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="8">ENERGY METER</text>
+  <text x="293" y="232" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="14">12,847</text>
+  <text x="293" y="250" text-anchor="middle" fill="#667788" font-family="monospace" font-size="7">kWh</text>
+</svg>

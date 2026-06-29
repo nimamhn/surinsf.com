@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><linearGradient id="bg6g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><linearGradient id="desk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3040"/><stop offset="1" stop-color="#1a2030"/></linearGradient><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#12121e"/></linearGradient><filter id="gsh6"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="300" fill="url(#bg6g)"/>
+  <rect x="20" y="20" width="360" height="260" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#gsh6)"/>
+  <rect x="30" y="30" width="340" height="100" rx="5" fill="url(#wall)" stroke="#3a5a7a" stroke-width="1"/>
+  <rect x="38" y="38" width="120" height="50" rx="3" fill="url(#desk)" stroke="#5a7a9a" stroke-width="1"/>
+  <rect x="42" y="42" width="112" height="42" rx="2" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <text x="98" y="60" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="10">SURIN</text>
+  <text x="98" y="76" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">ENGINEERING</text>
+  <rect x="168" y="38" width="120" height="50" rx="3" fill="url(#desk)" stroke="#5a7a9a" stroke-width="1"/>
+  <rect x="172" y="42" width="112" height="42" rx="2" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <text x="228" y="60" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">PROJECTS</text>
+  <text x="228" y="76" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">ACTIVE: 12</text>
+  <rect x="298" y="38" width="65" height="50" rx="3" fill="url(#desk)" stroke="#5a7a9a" stroke-width="1"/>
+  <rect x="302" y="42" width="57" height="42" rx="2" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <text x="330" y="60" text-anchor="middle" fill="#ff6644" font-family="monospace" font-size="8">TEAM</text>
+  <text x="330" y="76" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">48</text>
+  <rect x="30" y="140" width="340" height="130" rx="5" fill="url(#wall)" stroke="#3a5a7a" stroke-width="1"/>
+  <rect x="38" y="148" width="160" height="110" rx="4" fill="url(#desk)" stroke="#5a7a9a" stroke-width="1"/>
+  <rect x="45" y="155" width="146" height="20" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="118" y="169" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">WORKSPACE</text>
+  <rect x="45" y="180" width="70" height="40" rx="3" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <rect x="50" y="185" width="60" height="30" rx="2" fill="#0a1a12" stroke="#2a3a3a" stroke-width="0.5"/>
+  <text x="80" y="200" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="7">AUTO</text>
+  <rect x="122" y="180" width="68" height="40" rx="3" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <rect x="127" y="185" width="58" height="30" rx="2" fill="#121212" stroke="#3a3a3a" stroke-width="0.5"/>
+  <text x="156" y="200" text-anchor="middle" fill="#4488ff" font-family="monospace" font-size="7">CAD</text>
+  <rect x="45" y="226" width="146" height="25" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="118" y="243" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="7">TECHNICAL DOCUMENTATION</text>
+  <rect x="208" y="148" width="155" height="110" rx="4" fill="url(#desk)" stroke="#5a7a9a" stroke-width="1"/>
+  <rect x="215" y="155" width="141" height="20" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="285" y="169" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">BOARD</text>
+  <rect x="215" y="180" width="141" height="55" rx="3" fill="#12121e" stroke="#4a5a6a" stroke-width="1"/>
+  <rect x="222" y="187" width="20" height="14" rx="2" fill="#1a1a2e" stroke="#556677" stroke-width="0.5"/>
+  <text x="232" y="197" fill="#ff6644" font-family="monospace" font-size="6">UR</text>
+  <rect x="246" y="187" width="20" height="14" rx="2" fill="#1a1a2e" stroke="#556677" stroke-width="0.5"/>
+  <text x="256" y="197" fill="#ffaa44" font-family="monospace" font-size="6">TK</text>
+  <rect x="270" y="187" width="20" height="14" rx="2" fill="#1a1a2e" stroke="#556677" stroke-width="0.5"/>
+  <text x="280" y="197" fill="#44ff88" font-family="monospace" font-size="6">DN</text>
+  <rect x="294" y="187" width="20" height="14" rx="2" fill="#1a1a2e" stroke="#556677" stroke-width="0.5"/>
+  <text x="304" y="197" fill="#4488ff" font-family="monospace" font-size="6">FY</text>
+  <rect x="318" y="187" width="20" height="14" rx="2" fill="#1a1a2e" stroke="#556677" stroke-width="0.5"/>
+  <text x="328" y="197" fill="#ff4488" font-family="monospace" font-size="6">AL</text>
+  <rect x="222" y="206" width="116" height="22" rx="3" fill="#0d1117" stroke="#3a4a5a" stroke-width="1"/>
+  <text x="280" y="219" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="8">AGILE</text>
+  <rect x="215" y="240" width="141" height="12" rx="2" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="285" y="249" text-anchor="middle" fill="#667788" font-family="monospace" font-size="6">SPRINT 12 · WEEK 3</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <linearGradient id="gauge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c30"/><stop offset="1" stop-color="#12121e"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f0f0"/><stop offset="1" stop-color="#d0d0d0"/></linearGradient>
+    <linearGradient id="redzone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff4444"/><stop offset="1" stop-color="#cc0000"/></linearGradient>
+    <linearGradient id="greenzone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#44cc44"/><stop offset="1" stop-color="#009900"/></linearGradient>
+    <linearGradient id="metalf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#888899"/><stop offset="1" stop-color="#666677"/></linearGradient>
+    <filter id="shadow4"><feDropShadow dx="3" dy="3" stdDeviation="5" flood-opacity="0.5"/></filter>
+    <filter id="glow4"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg4)"/>
+  <rect x="20" y="20" width="560" height="350" rx="12" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#shadow4)"/>
+  <rect x="35" y="35" width="130" height="130" rx="65" fill="url(#gauge)" stroke="#4a6a8a" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="55" fill="url(#face)" stroke="#889999" stroke-width="1"/>
+  <circle cx="100" cy="100" r="50" fill="#e8e8e8" stroke="#778888" stroke-width="0.5"/>
+  <path d="M55 110 A50 50 0 0 1 100 55" fill="none" stroke="#ff4444" stroke-width="6" opacity="0.3"/>
+  <path d="M100 55 A50 50 0 0 1 145 110" fill="none" stroke="#44bb44" stroke-width="6" opacity="0.3"/>
+  <path d="M100 55 A50 50 0 0 1 135 130" fill="none" stroke="#ffaa00" stroke-width="6" opacity="0.3"/>
+  <line x1="100" y1="100" x2="135" y2="65" stroke="#cc0000" stroke-width="2"/>
+  <line x1="100" y1="100" x2="130" y2="90" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="4" fill="#333"/>
+  <text x="100" y="145" text-anchor="middle" fill="#333" font-family="sans-serif" font-size="10" font-weight="bold">BAR</text>
+  <text x="100" y="172" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="9">PRESSURE</text>
+  <rect x="35" y="195" width="130" height="55" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <text x="100" y="215" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="13">4.2</text>
+  <text x="100" y="235" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">bar</text>
+  <rect x="180" y="35" width="130" height="130" rx="65" fill="url(#gauge)" stroke="#4a6a8a" stroke-width="1.5"/>
+  <circle cx="245" cy="100" r="55" fill="url(#face)" stroke="#889999" stroke-width="1"/>
+  <circle cx="245" cy="100" r="50" fill="#e8e8e8" stroke="#778888" stroke-width="0.5"/>
+  <path d="M200 110 A50 50 0 0 1 290 110" fill="none" stroke="#ff4444" stroke-width="6" opacity="0.3"/>
+  <path d="M200 110 A50 50 0 0 1 245 55" fill="none" stroke="#44bb44" stroke-width="6" opacity="0.3"/>
+  <path d="M245 55 A50 50 0 0 1 290 110" fill="none" stroke="#ffaa00" stroke-width="6" opacity="0.3"/>
+  <line x1="245" y1="100" x2="215" y2="65" stroke="#cc0000" stroke-width="2"/>
+  <line x1="245" y1="100" x2="260" y2="80" stroke="#333" stroke-width="1.5"/>
+  <circle cx="245" cy="100" r="4" fill="#333"/>
+  <text x="245" y="145" text-anchor="middle" fill="#333" font-family="sans-serif" font-size="10" font-weight="bold">°C</text>
+  <text x="245" y="172" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="9">TEMPERATURE</text>
+  <rect x="180" y="195" width="130" height="55" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <text x="245" y="215" text-anchor="middle" fill="#ff6644" font-family="monospace" font-size="13">185.6</text>
+  <text x="245" y="235" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">°C</text>
+  <rect x="325" y="35" width="130" height="130" rx="65" fill="url(#gauge)" stroke="#4a6a8a" stroke-width="1.5"/>
+  <circle cx="390" cy="100" r="55" fill="url(#face)" stroke="#889999" stroke-width="1"/>
+  <circle cx="390" cy="100" r="50" fill="#e8e8e8" stroke="#778888" stroke-width="0.5"/>
+  <path d="M345 110 A50 50 0 0 1 435 110" fill="none" stroke="#ff4444" stroke-width="6" opacity="0.3"/>
+  <line x1="390" y1="100" x2="420" y2="70" stroke="#cc0000" stroke-width="2"/>
+  <line x1="390" y1="100" x2="420" y2="100" stroke="#333" stroke-width="1.5"/>
+  <circle cx="390" cy="100" r="4" fill="#333"/>
+  <text x="390" y="145" text-anchor="middle" fill="#333" font-family="sans-serif" font-size="10" font-weight="bold">m³/h</text>
+  <text x="390" y="172" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="9">FLOW</text>
+  <rect x="325" y="195" width="130" height="55" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <text x="390" y="215" text-anchor="middle" fill="#44ccff" font-family="monospace" font-size="13">12.7</text>
+  <text x="390" y="235" text-anchor="middle" fill="#667788" font-family="monospace" font-size="8">m³/h</text>
+  <rect x="470" y="35" width="120" height="215" rx="6" fill="#1e1e32" stroke="#4a6a8a" stroke-width="1"/>
+  <text x="530" y="60" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">ANALYZER</text>
+  <rect x="478" y="70" width="104" height="60" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="530" y="95" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="9" filter="url(#glow4)">O₂: 20.9%</text>
+  <text x="530" y="112" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="8">CO₂: 0.04%</text>
+  <text x="530" y="127" text-anchor="middle" fill="#44ccff" font-family="monospace" font-size="8">CH₄: 0.5%</text>
+  <rect x="478" y="138" width="104" height="55" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="530" y="160" text-anchor="middle" fill="#ff6644" font-family="monospace" font-size="9">pH: 7.2</text>
+  <text x="530" y="178" text-anchor="middle" fill="#44ccff" font-family="monospace" font-size="8">COND: 145 μS</text>
+  <rect x="478" y="200" width="104" height="40" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="530" y="218" text-anchor="middle" fill="#ffaa00" font-family="monospace" font-size="11">RUNNING</text>
+  <rect x="35" y="265" width="545" height="45" rx="4" fill="#1a1a2e" stroke="#3a5a7a" stroke-width="1"/>
+  <rect x="42" y="272" width="105" height="30" rx="2" fill="#0d1117" stroke="#556677" stroke-width="0.5"/>
+  <text x="95" y="292" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">TRANSMITTER</text>
+  <rect x="155" y="272" width="105" height="30" rx="2" fill="#0d1117" stroke="#556677" stroke-width="0.5"/>
+  <text x="208" y="292" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">CALIBRATOR</text>
+  <rect x="268" y="272" width="105" height="30" rx="2" fill="#0d1117" stroke="#556677" stroke-width="0.5"/>
+  <text x="320" y="292" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">SENSOR</text>
+  <rect x="381" y="272" width="105" height="30" rx="2" fill="#0d1117" stroke="#556677" stroke-width="0.5"/>
+  <text x="433" y="292" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">DATALOGGER</text>
+  <rect x="494" y="272" width="78" height="30" rx="2" fill="#0d1117" stroke="#556677" stroke-width="0.5"/>
+  <text x="533" y="292" text-anchor="middle" fill="#8899aa" font-family="monospace" font-size="8">HART</text>
+  <rect x="35" y="320" width="545" height="35" rx="4" fill="#0a0a15" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="307" y="343" text-anchor="middle" fill="#667788" font-family="monospace" font-size="9">INSTRUMENTATION & PROCESS CONTROL SYSTEMS</text>
+  <rect x="10" y="380" width="580" height="10" rx="3" fill="#0a0a15" stroke="#1a2a3a" stroke-width="0.5"/>
+</svg>

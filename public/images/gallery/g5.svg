@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><linearGradient id="bg5g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><linearGradient id="dash" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#12121e"/></linearGradient><linearGradient id="grn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#44ff88"/><stop offset="1" stop-color="#00aa44"/></linearGradient><filter id="gsh5"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="300" fill="url(#bg5g)"/>
+  <rect x="20" y="20" width="360" height="260" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#gsh5)"/>
+  <rect x="30" y="30" width="340" height="240" rx="5" fill="#222238" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="38" y="38" width="160" height="110" rx="4" fill="url(#dash)" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="118" y="58" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="9">OVERVIEW</text>
+  <rect x="45" y="65" width="65" height="30" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="77" y="80" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="10">1,247</text>
+  <text x="77" y="92" text-anchor="middle" fill="#667788" font-family="monospace" font-size="6">UNITS/HR</text>
+  <rect x="118" y="65" width="65" height="30" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="150" y="80" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="10">98.2%</text>
+  <text x="150" y="92" text-anchor="middle" fill="#667788" font-family="monospace" font-size="6">QUALITY</text>
+  <rect x="45" y="100" width="138" height="40" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="114" y="118" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="8">OEE: 85.4%</text>
+  <rect x="45" y="125" width="138" height="4" rx="2" fill="#2a3a3a" stroke="#3a4a4a" stroke-width="0.5"/>
+  <rect x="45" y="125" width="118" height="4" rx="2" fill="url(#grn)" opacity="0.7"/>
+  <rect x="208" y="38" width="160" height="110" rx="4" fill="url(#dash)" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="288" y="58" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="9">ENERGY</text>
+  <rect x="215" y="65" width="146" height="75" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="288" y="85" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="12">345.2</text>
+  <text x="288" y="102" text-anchor="middle" fill="#667788" font-family="monospace" font-size="7">kWh TODAY</text>
+  <rect x="215" y="112" width="146" height="4" rx="2" fill="#2a3a3a"/>
+  <rect x="215" y="112" width="102" height="4" rx="2" fill="#ffaa44" opacity="0.7"/>
+  <text x="330" y="116" fill="#ffaa44" font-family="monospace" font-size="6">70%</text>
+  <rect x="38" y="158" width="160" height="105" rx="4" fill="url(#dash)" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="118" y="178" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="9">PRODUCTION</text>
+  <rect x="45" y="185" width="146" height="70" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <line x1="55" y1="245" x2="55" y2="195" stroke="#3a5a5a" stroke-width="1"/>
+  <rect x="58" y="210" width="12" height="35" fill="#44ff88" opacity="0.6"/><rect x="73" y="218" width="12" height="27" fill="#44ff88" opacity="0.6"/>
+  <rect x="88" y="205" width="12" height="40" fill="#44ff88" opacity="0.6"/><rect x="103" y="215" width="12" height="30" fill="#44ff88" opacity="0.6"/>
+  <rect x="118" y="200" width="12" height="45" fill="#ffaa44" opacity="0.6"/><rect x="133" y="208" width="12" height="37" fill="#44ff88" opacity="0.6"/>
+  <rect x="148" y="212" width="12" height="33" fill="#44ff88" opacity="0.6"/><rect x="163" y="222" width="12" height="23" fill="#44ff88" opacity="0.6"/>
+  <rect x="178" y="210" width="12" height="35" fill="#44ff88" opacity="0.6"/>
+  <text x="60" y="260" fill="#667788" font-family="monospace" font-size="6">M T W T F S S</text>
+  <rect x="208" y="158" width="160" height="105" rx="4" fill="url(#dash)" stroke="#5a7a9a" stroke-width="1"/>
+  <text x="288" y="178" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="9">STATUS</text>
+  <rect x="215" y="185" width="146" height="70" rx="3" fill="#12121e" stroke="#3a5a7a" stroke-width="0.5"/>
+  <text x="225" y="205" fill="#44ff88" font-family="monospace" font-size="8">● LINE 1: RUNNING</text>
+  <text x="225" y="220" fill="#44ff88" font-family="monospace" font-size="8">● LINE 2: RUNNING</text>
+  <text x="225" y="235" fill="#ffaa44" font-family="monospace" font-size="8">● LINE 3: STANDBY</text>
+  <text x="225" y="250" fill="#ff4444" font-family="monospace" font-size="8">● LINE 4: MAINT</text>
+</svg>

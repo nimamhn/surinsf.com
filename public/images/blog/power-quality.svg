@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs><linearGradient id="bgpq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient><filter id="shpq"><feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/></filter></defs>
+  <rect width="400" height="260" fill="url(#bgpq)"/>
+  <rect x="20" y="15" width="360" height="230" rx="8" fill="#1c1c30" stroke="#3a4a6a" stroke-width="2" filter="url(#shpq)"/>
+  <rect x="30" y="25" width="340" height="210" rx="5" fill="#222238" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="38" y="33" width="324" height="30" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="200" y="53" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="11">POWER QUALITY ANALYSIS</text>
+  <rect x="38" y="72" width="155" height="100" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="45" y="79" width="141" height="20" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="115" y="93" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">WAVEFORM</text>
+  <path d="M50 115 Q70 90 85 115 Q100 140 115 115 Q130 90 145 115 Q160 140 175 115" fill="none" stroke="#00ff88" stroke-width="1.5" opacity="0.8"/>
+  <path d="M50 130 Q70 105 85 130 Q100 155 115 130 Q130 105 145 130 Q160 155 175 130" fill="none" stroke="#4488ff" stroke-width="1.5" opacity="0.6"/>
+  <path d="M50 145 Q70 135 85 145 Q100 155 115 145 Q130 135 145 145 Q160 155 175 145" fill="none" stroke="#ff6644" stroke-width="1.5" opacity="0.4"/>
+  <rect x="38" y="180" width="155" height="40" rx="4" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="115" y="198" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="8">THD: 4.2%</text>
+  <text x="115" y="213" text-anchor="middle" fill="#ffaa44" font-family="monospace" font-size="7">PF: 0.92</text>
+  <rect x="205" y="72" width="155" height="100" rx="4" fill="#1a1a2e" stroke="#4a6a8a" stroke-width="1"/>
+  <rect x="212" y="79" width="141" height="20" rx="3" fill="#0a0a15" stroke="#3a4a5a" stroke-width="0.5"/>
+  <text x="282" y="93" text-anchor="middle" fill="#ffcc00" font-family="monospace" font-size="8">HARMONIC SPECTRUM</text>
+  <rect x="215" y="105" width="6" height="45" fill="#ff4444" opacity="0.7"/><rect x="225" y="120" width="6" height="30" fill="#ffaa44" opacity="0.7"/>
+  <rect x="235" y="130" width="6" height="20" fill="#44ff44" opacity="0.7"/><rect x="245" y="135" width="6" height="15" fill="#4488ff" opacity="0.7"/>
+  <rect x="255" y="140" width="6" height="10" fill="#ff6644" opacity="0.7"/><rect x="265" y="140" width="6" height="10" fill="#ffaa44" opacity="0.7"/>
+  <rect x="275" y="145" width="6" height="5" fill="#44ff44" opacity="0.7"/><rect x="285" y="145" width="6" height="5" fill="#4488ff" opacity="0.7"/>
+  <rect x="295" y="145" width="6" height="5" fill="#ff6644" opacity="0.7"/><rect x="305" y="145" width="6" height="5" fill="#ffaa44" opacity="0.7"/>
+  <rect x="315" y="148" width="6" height="2" fill="#44ff44" opacity="0.7"/><rect x="325" y="148" width="6" height="2" fill="#4488ff" opacity="0.7"/>
+  <rect x="335" y="148" width="6" height="2" fill="#ff6644" opacity="0.7"/>
+  <text x="230" y="158" fill="#667788" font-family="monospace" font-size="5">3 5 7 9 11 13 15 17 19 21 23 25</text>
+  <rect x="205" y="180" width="155" height="40" rx="4" fill="#12121e" stroke="#3a5a7a" stroke-width="1"/>
+  <text x="282" y="198" text-anchor="middle" fill="#88bbdd" font-family="monospace" font-size="8">FUND: 50.00 Hz</text>
+  <text x="282" y="213" text-anchor="middle" fill="#44ff88" font-family="monospace" font-size="7">VOLTAGE: 381 V</text>
+</svg>
