@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
   <defs>
-    <linearGradient id="bga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
-    <linearGradient id="panela" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c30"/><stop offset="1" stop-color="#12121e"/></linearGradient>
+    <linearGradient id="bga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2a3e"/><stop offset="1" stop-color="#1a1a2e"/></linearGradient>
+    <linearGradient id="panela" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a50"/><stop offset="1" stop-color="#2a2a3e"/></linearGradient>
     <linearGradient id="gface" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8e8e8"/><stop offset="1" stop-color="#c0c0c0"/></linearGradient>
     <filter id="sha"><feDropShadow dx="2" dy="2" stdDeviation="4" flood-opacity="0.5"/></filter>
     <filter id="glo"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
