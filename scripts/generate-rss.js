@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const siteUrl = 'https://surinsf-site.task-malt-juvenile.workers.dev';
+const siteUrl = 'https://surinsf.com';
 
 const articles = [
   { slug: 'plc-selection-guide', title: 'راهنمای جامع انتخاب PLC صنعتی', excerpt: 'بررسی انواع PLCهای موجود در بازار', date: '2025-06-05', cat: 'اتوماسیون', img: '/images/blog/plc.jpg' },

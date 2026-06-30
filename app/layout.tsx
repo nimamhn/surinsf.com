@@ -42,23 +42,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#0a0a0f" />
-        <meta name="google-site-verification" content="" />
-        <link rel="canonical" href="https://surinsf-site.task-malt-juvenile.workers.dev" />
+        <link rel="canonical" href="https://surinsf.com" />
         <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS" />
+        <link rel="alternate" href="https://surinsf.com" hrefLang="fa" />
+        <link rel="alternate" href="https://surinsf.com/en" hrefLang="en" />
+        <link rel="alternate" href="https://surinsf.com" hrefLang="x-default" />
         <meta property="og:title" content="سورین صنعت فرزان | واردات تجهیزات برق صنعتی" />
         <meta property="og:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://surinsf-site.task-malt-juvenile.workers.dev" />
+        <meta property="og:url" content="https://surinsf.com" />
+        <meta property="og:image" content="https://surinsf.com/images/og-image.jpg" />
+        <meta property="og:locale" content="fa_IR" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="سورین صنعت فرزان" />
+        <meta name="twitter:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
+        <meta name="twitter:image" content="https://surinsf.com/images/og-image.jpg" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
-        <script dangerouslySetInnerHTML={{
-          __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');",
-        }} />
-        <meta name="twitter:title" content="سورین صنعت فرزان" />
-        <meta name="twitter:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" as="style" />
@@ -71,10 +72,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             '@type': 'Organization',
             name: 'سورین صنعت فرزان',
             alternateName: 'Surin Sanat Farzan',
-            url: 'https://surinsf-site.task-malt-juvenile.workers.dev',
-            logo: '/images/p1.svg',
+            url: 'https://surinsf.com',
+            logo: 'https://surinsf.com/images/og-image.jpg',
             contactPoint: { '@type': 'ContactPoint', telephone: '+982122201734', contactType: 'customer service' },
             address: { '@type': 'PostalAddress', addressLocality: 'Tehran', addressCountry: 'IR' },
+            sameAs: [],
           }),
         }} />
       </head>
