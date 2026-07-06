@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useEffect } from 'react';
 import gsap from 'gsap';
@@ -39,24 +39,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
+        <meta name="description" content="ÙˆØ§Ø±Ø¯Ø§Øª Ùˆ ØµØ§Ø¯Ø±Ø§Øª ØªØ¬Ù‡ÛŒØ²Ø§Øª Ø¨Ø±Ù‚ ØµÙ†Ø¹ØªÛŒØŒ Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ†ØŒ Ø§Ø¨Ø²Ø§Ø± Ø¯Ù‚ÛŒÙ‚" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#0a0a0f" />
-        <link rel="canonical" href="https://surinsf.com" />
+        <link rel="canonical" href="https://nimamhn.github.io/surinsf.com" />
         <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS" />
-        <link rel="alternate" href="https://surinsf.com" hrefLang="fa" />
-        <link rel="alternate" href="https://surinsf.com/en" hrefLang="en" />
-        <link rel="alternate" href="https://surinsf.com" hrefLang="x-default" />
-        <meta property="og:title" content="سورین صنعت فرزان | واردات تجهیزات برق صنعتی" />
-        <meta property="og:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
+        <link rel="alternate" href="https://nimamhn.github.io/surinsf.com" hrefLang="fa" />
+        <link rel="alternate" href="https://nimamhn.github.io/surinsf.com/en" hrefLang="en" />
+        <link rel="alternate" href="https://nimamhn.github.io/surinsf.com" hrefLang="x-default" />
+        <meta property="og:title" content="Ø³ÙˆØ±ÛŒÙ† ØµÙ†Ø¹Øª ÙØ±Ø²Ø§Ù† | ÙˆØ§Ø±Ø¯Ø§Øª ØªØ¬Ù‡ÛŒØ²Ø§Øª Ø¨Ø±Ù‚ ØµÙ†Ø¹ØªÛŒ" />
+        <meta property="og:description" content="ÙˆØ§Ø±Ø¯Ø§Øª Ùˆ ØµØ§Ø¯Ø±Ø§Øª ØªØ¬Ù‡ÛŒØ²Ø§Øª Ø¨Ø±Ù‚ ØµÙ†Ø¹ØªÛŒØŒ Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ†ØŒ Ø§Ø¨Ø²Ø§Ø± Ø¯Ù‚ÛŒÙ‚" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://surinsf.com" />
-        <meta property="og:image" content="https://surinsf.com/images/og-image.jpg" />
+        <meta property="og:url" content="https://nimamhn.github.io/surinsf.com" />
+        <meta property="og:image" content="https://nimamhn.github.io/surinsf.com/images/og-image.jpg" />
         <meta property="og:locale" content="fa_IR" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="سورین صنعت فرزان" />
-        <meta name="twitter:description" content="واردات و صادرات تجهیزات برق صنعتی، اتوماسیون، ابزار دقیق" />
-        <meta name="twitter:image" content="https://surinsf.com/images/og-image.jpg" />
+        <meta name="twitter:title" content="Ø³ÙˆØ±ÛŒÙ† ØµÙ†Ø¹Øª ÙØ±Ø²Ø§Ù†" />
+        <meta name="twitter:description" content="ÙˆØ§Ø±Ø¯Ø§Øª Ùˆ ØµØ§Ø¯Ø±Ø§Øª ØªØ¬Ù‡ÛŒØ²Ø§Øª Ø¨Ø±Ù‚ ØµÙ†Ø¹ØªÛŒØŒ Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ†ØŒ Ø§Ø¨Ø²Ø§Ø± Ø¯Ù‚ÛŒÙ‚" />
+        <meta name="twitter:image" content="https://nimamhn.github.io/surinsf.com/images/og-image.jpg" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -70,10 +70,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            name: 'سورین صنعت فرزان',
+            name: 'Ø³ÙˆØ±ÛŒÙ† ØµÙ†Ø¹Øª ÙØ±Ø²Ø§Ù†',
             alternateName: 'Surin Sanat Farzan',
-            url: 'https://surinsf.com',
-            logo: 'https://surinsf.com/images/og-image.jpg',
+            url: 'https://nimamhn.github.io/surinsf.com',
+            logo: 'https://nimamhn.github.io/surinsf.com/images/og-image.jpg',
             contactPoint: { '@type': 'ContactPoint', telephone: '+982122201734', contactType: 'customer service' },
             address: { '@type': 'PostalAddress', addressLocality: 'Tehran', addressCountry: 'IR' },
             sameAs: [],
@@ -95,3 +95,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+

@@ -1,119 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>سورین صنعت فرزان | وبلاگ</title>
-    <link>https://surinsf.com</link>
-    <description>مطالب تخصصی برق صنعتی، اتوماسیون و ابزار دقیق</description>
+    <title>Ø³ÙˆØ±ÛŒÙ† ØµÙ†Ø¹Øª ÙØ±Ø²Ø§Ù† | ÙˆØ¨Ù„Ø§Ú¯</title>
+    <link>https://nimamhn.github.io/surinsf.com</link>
+    <description>Ù…Ø·Ø§Ù„Ø¨ ØªØ®ØµØµÛŒ Ø¨Ø±Ù‚ ØµÙ†Ø¹ØªÛŒØŒ Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ† Ùˆ Ø§Ø¨Ø²Ø§Ø± Ø¯Ù‚ÛŒÙ‚</description>
     <language>fa</language>
-    <atom:link href="https://surinsf.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://nimamhn.github.io/surinsf.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
-      <title>راهنمای جامع انتخاب PLC صنعتی</title>
-      <link>https://surinsf.com/blog/plc-selection-guide</link>
-      <guid>https://surinsf.com/blog/plc-selection-guide</guid>
-      <description>بررسی انواع PLCهای موجود در بازار</description>
-      <category>اتوماسیون</category>
+      <title>Ø±Ø§Ù‡Ù†Ù…Ø§ÛŒ Ø¬Ø§Ù…Ø¹ Ø§Ù†ØªØ®Ø§Ø¨ PLC ØµÙ†Ø¹ØªÛŒ</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/plc-selection-guide</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/plc-selection-guide</guid>
+      <description>Ø¨Ø±Ø±Ø³ÛŒ Ø§Ù†ÙˆØ§Ø¹ PLCÙ‡Ø§ÛŒ Ù…ÙˆØ¬ÙˆØ¯ Ø¯Ø± Ø¨Ø§Ø²Ø§Ø±</description>
+      <category>Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ†</category>
       <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/plc.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/plc.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
-      <title>اتوماسیون صنعتی و اینترنت اشیاء</title>
-      <link>https://surinsf.com/blog/industrial-iot</link>
-      <guid>https://surinsf.com/blog/industrial-iot</guid>
-      <description>تحول دیجیتال در صنعت با IIoT</description>
-      <category>فناوری</category>
+      <title>Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ† ØµÙ†Ø¹ØªÛŒ Ùˆ Ø§ÛŒÙ†ØªØ±Ù†Øª Ø§Ø´ÛŒØ§Ø¡</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/industrial-iot</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/industrial-iot</guid>
+      <description>ØªØ­ÙˆÙ„ Ø¯ÛŒØ¬ÛŒØªØ§Ù„ Ø¯Ø± ØµÙ†Ø¹Øª Ø¨Ø§ IIoT</description>
+      <category>ÙÙ†Ø§ÙˆØ±ÛŒ</category>
       <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/iot.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/iot.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
-      <title>استانداردهای بین‌المللی تجهیزات برق</title>
-      <link>https://surinsf.com/blog/electrical-standards</link>
-      <guid>https://surinsf.com/blog/electrical-standards</guid>
-      <description>IEC, NEMA و ISO</description>
-      <category>استانداردها</category>
+      <title>Ø§Ø³ØªØ§Ù†Ø¯Ø§Ø±Ø¯Ù‡Ø§ÛŒ Ø¨ÛŒÙ†â€ŒØ§Ù„Ù…Ù„Ù„ÛŒ ØªØ¬Ù‡ÛŒØ²Ø§Øª Ø¨Ø±Ù‚</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/electrical-standards</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/electrical-standards</guid>
+      <description>IEC, NEMA Ùˆ ISO</description>
+      <category>Ø§Ø³ØªØ§Ù†Ø¯Ø§Ø±Ø¯Ù‡Ø§</category>
       <pubDate>Thu, 10 Apr 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/standards.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/standards.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
-      <title>راهنمای جامع درایوهای فرکانس متغیر</title>
-      <link>https://surinsf.com/blog/vfd-drives-guide</link>
-      <guid>https://surinsf.com/blog/vfd-drives-guide</guid>
-      <description>کاربردها و مزایای VFD</description>
-      <category>تجهیزات</category>
+      <title>Ø±Ø§Ù‡Ù†Ù…Ø§ÛŒ Ø¬Ø§Ù…Ø¹ Ø¯Ø±Ø§ÛŒÙˆÙ‡Ø§ÛŒ ÙØ±Ú©Ø§Ù†Ø³ Ù…ØªØºÛŒØ±</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/vfd-drives-guide</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/vfd-drives-guide</guid>
+      <description>Ú©Ø§Ø±Ø¨Ø±Ø¯Ù‡Ø§ Ùˆ Ù…Ø²Ø§ÛŒØ§ÛŒ VFD</description>
+      <category>ØªØ¬Ù‡ÛŒØ²Ø§Øª</category>
       <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/vfd.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/vfd.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
-      <title>تابلوهای MCC و کنترل موتور</title>
-      <link>https://surinsf.com/blog/motor-control-centers</link>
-      <guid>https://surinsf.com/blog/motor-control-centers</guid>
-      <description>اصول طراحی تابلوهای کنترل موتور</description>
-      <category>تابلو برق</category>
+      <title>ØªØ§Ø¨Ù„ÙˆÙ‡Ø§ÛŒ MCC Ùˆ Ú©Ù†ØªØ±Ù„ Ù…ÙˆØªÙˆØ±</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/motor-control-centers</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/motor-control-centers</guid>
+      <description>Ø§ØµÙˆÙ„ Ø·Ø±Ø§Ø­ÛŒ ØªØ§Ø¨Ù„ÙˆÙ‡Ø§ÛŒ Ú©Ù†ØªØ±Ù„ Ù…ÙˆØªÙˆØ±</description>
+      <category>ØªØ§Ø¨Ù„Ùˆ Ø¨Ø±Ù‚</category>
       <pubDate>Sat, 15 Feb 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/mcc.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/mcc.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
-      <title>کیفیت برق و کاهش هارمونیک‌ها</title>
-      <link>https://surinsf.com/blog/power-quality</link>
-      <guid>https://surinsf.com/blog/power-quality</guid>
-      <description>روش‌های بهبود کیفیت توان</description>
-      <category>برق</category>
+      <title>Ú©ÛŒÙÛŒØª Ø¨Ø±Ù‚ Ùˆ Ú©Ø§Ù‡Ø´ Ù‡Ø§Ø±Ù…ÙˆÙ†ÛŒÚ©â€ŒÙ‡Ø§</title>
+      <link>https://nimamhn.github.io/surinsf.com/blog/power-quality</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/power-quality</guid>
+      <description>Ø±ÙˆØ´â€ŒÙ‡Ø§ÛŒ Ø¨Ù‡Ø¨ÙˆØ¯ Ú©ÛŒÙÛŒØª ØªÙˆØ§Ù†</description>
+      <category>Ø¨Ø±Ù‚</category>
       <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/power-quality.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/power-quality.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>Complete Guide to Industrial PLC Selection</title>
-      <link>https://surinsf.com/blog/plc-selection-guide</link>
-      <guid>https://surinsf.com/blog/plc-selection-guide</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/plc-selection-guide</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/plc-selection-guide</guid>
       <description>PLC selection criteria</description>
       <category>Automation</category>
       <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/plc.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/plc.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>Industrial IoT and Smart Manufacturing</title>
-      <link>https://surinsf.com/blog/industrial-iot</link>
-      <guid>https://surinsf.com/blog/industrial-iot</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/industrial-iot</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/industrial-iot</guid>
       <description>IIoT technologies</description>
       <category>Technology</category>
       <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/iot.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/iot.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>International Electrical Equipment Standards</title>
-      <link>https://surinsf.com/blog/electrical-standards-en</link>
-      <guid>https://surinsf.com/blog/electrical-standards-en</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/electrical-standards-en</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/electrical-standards-en</guid>
       <description>IEC, NEMA and ISO</description>
       <category>Standards</category>
       <pubDate>Thu, 10 Apr 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/standards.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/standards.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>Complete Guide to Variable Frequency Drives</title>
-      <link>https://surinsf.com/blog/vfd-drives-guide</link>
-      <guid>https://surinsf.com/blog/vfd-drives-guide</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/vfd-drives-guide</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/vfd-drives-guide</guid>
       <description>VFD benefits and selection</description>
       <category>Equipment</category>
       <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/vfd.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/vfd.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>MCC Panels and Motor Control</title>
-      <link>https://surinsf.com/blog/motor-control-centers</link>
-      <guid>https://surinsf.com/blog/motor-control-centers</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/motor-control-centers</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/motor-control-centers</guid>
       <description>MCC design principles</description>
       <category>Switchboard</category>
       <pubDate>Sat, 15 Feb 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/mcc.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/mcc.jpg" type="image/jpeg" length="0"/>
     </item>
     <item>
       <title>Power Quality and Harmonic Mitigation</title>
-      <link>https://surinsf.com/blog/power-quality</link>
-      <guid>https://surinsf.com/blog/power-quality</guid>
+      <link>https://nimamhn.github.io/surinsf.com/blog/power-quality</link>
+      <guid>https://nimamhn.github.io/surinsf.com/blog/power-quality</guid>
       <description>Power quality improvement</description>
       <category>Electrical</category>
       <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
-      <enclosure url="https://surinsf.com/images/blog/power-quality.jpg" type="image/jpeg" length="0"/>
+      <enclosure url="https://nimamhn.github.io/surinsf.com/images/blog/power-quality.jpg" type="image/jpeg" length="0"/>
     </item>
   </channel>
 </rss>

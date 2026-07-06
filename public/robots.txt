@@ -1,3 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
-Sitemap: https://surinsf.com/sitemap.xml
+Sitemap: https://nimamhn.github.io/surinsf.com/sitemap.xml
+
