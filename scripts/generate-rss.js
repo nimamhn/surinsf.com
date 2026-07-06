@@ -2,19 +2,20 @@ const fs = require('fs');
 const path = require('path');
 const siteUrl = 'https://surinsf.com';
 
+const ghRaw = 'https://raw.githubusercontent.com/nimamhn/surinsf.com/main/public';
 const articles = [
-  { slug: 'plc-selection-guide', title: 'راهنمای جامع انتخاب PLC صنعتی', excerpt: 'بررسی انواع PLCهای موجود در بازار', date: '2025-06-05', cat: 'اتوماسیون', img: '/images/blog/plc.jpg' },
-  { slug: 'industrial-iot', title: 'اتوماسیون صنعتی و اینترنت اشیاء', excerpt: 'تحول دیجیتال در صنعت با IIoT', date: '2025-05-20', cat: 'فناوری', img: '/images/blog/iot.jpg' },
-  { slug: 'electrical-standards', title: 'استانداردهای بین‌المللی تجهیزات برق', excerpt: 'IEC, NEMA و ISO', date: '2025-04-10', cat: 'استانداردها', img: '/images/blog/standards.jpg' },
-  { slug: 'vfd-drives-guide', title: 'راهنمای جامع درایوهای فرکانس متغیر', excerpt: 'کاربردها و مزایای VFD', date: '2025-03-05', cat: 'تجهیزات', img: '/images/blog/vfd.jpg' },
-  { slug: 'motor-control-centers', title: 'تابلوهای MCC و کنترل موتور', excerpt: 'اصول طراحی تابلوهای کنترل موتور', date: '2025-02-15', cat: 'تابلو برق', img: '/images/blog/mcc.jpg' },
-  { slug: 'power-quality', title: 'کیفیت برق و کاهش هارمونیک‌ها', excerpt: 'روش‌های بهبود کیفیت توان', date: '2025-01-20', cat: 'برق', img: '/images/blog/power-quality.jpg' },
-  { slug: 'plc-selection-guide', title: 'Complete Guide to Industrial PLC Selection', excerpt: 'PLC selection criteria', date: '2025-06-05', cat: 'Automation', img: '/images/blog/plc.jpg' },
-  { slug: 'industrial-iot', title: 'Industrial IoT and Smart Manufacturing', excerpt: 'IIoT technologies', date: '2025-05-20', cat: 'Technology', img: '/images/blog/iot.jpg' },
-  { slug: 'electrical-standards-en', title: 'International Electrical Equipment Standards', excerpt: 'IEC, NEMA and ISO', date: '2025-04-10', cat: 'Standards', img: '/images/blog/standards.jpg' },
-  { slug: 'vfd-drives-guide', title: 'Complete Guide to Variable Frequency Drives', excerpt: 'VFD benefits and selection', date: '2025-03-05', cat: 'Equipment', img: '/images/blog/vfd.jpg' },
-  { slug: 'motor-control-centers', title: 'MCC Panels and Motor Control', excerpt: 'MCC design principles', date: '2025-02-15', cat: 'Switchboard', img: '/images/blog/mcc.jpg' },
-  { slug: 'power-quality', title: 'Power Quality and Harmonic Mitigation', excerpt: 'Power quality improvement', date: '2025-01-20', cat: 'Electrical', img: '/images/blog/power-quality.jpg' },
+  { slug: 'plc-selection-guide', title: 'راهنمای جامع انتخاب PLC صنعتی', excerpt: 'بررسی انواع PLCهای موجود در بازار', date: '2025-06-05', cat: 'اتوماسیون', img: ghRaw + '/images/blog/plc.jpg' },
+  { slug: 'industrial-iot', title: 'اتوماسیون صنعتی و اینترنت اشیاء', excerpt: 'تحول دیجیتال در صنعت با IIoT', date: '2025-05-20', cat: 'فناوری', img: ghRaw + '/images/blog/iot.jpg' },
+  { slug: 'electrical-standards', title: 'استانداردهای بین‌المللی تجهیزات برق', excerpt: 'IEC, NEMA و ISO', date: '2025-04-10', cat: 'استانداردها', img: ghRaw + '/images/blog/standards.jpg' },
+  { slug: 'vfd-drives-guide', title: 'راهنمای جامع درایوهای فرکانس متغیر', excerpt: 'کاربردها و مزایای VFD', date: '2025-03-05', cat: 'تجهیزات', img: ghRaw + '/images/blog/vfd.jpg' },
+  { slug: 'motor-control-centers', title: 'تابلوهای MCC و کنترل موتور', excerpt: 'اصول طراحی تابلوهای کنترل موتور', date: '2025-02-15', cat: 'تابلو برق', img: ghRaw + '/images/blog/mcc.jpg' },
+  { slug: 'power-quality', title: 'کیفیت برق و کاهش هارمونیک‌ها', excerpt: 'روش‌های بهبود کیفیت توان', date: '2025-01-20', cat: 'برق', img: ghRaw + '/images/blog/power-quality.jpg' },
+  { slug: 'plc-selection-guide', title: 'Complete Guide to Industrial PLC Selection', excerpt: 'PLC selection criteria', date: '2025-06-05', cat: 'Automation', img: ghRaw + '/images/blog/plc.jpg' },
+  { slug: 'industrial-iot', title: 'Industrial IoT and Smart Manufacturing', excerpt: 'IIoT technologies', date: '2025-05-20', cat: 'Technology', img: ghRaw + '/images/blog/iot.jpg' },
+  { slug: 'electrical-standards-en', title: 'International Electrical Equipment Standards', excerpt: 'IEC, NEMA and ISO', date: '2025-04-10', cat: 'Standards', img: ghRaw + '/images/blog/standards.jpg' },
+  { slug: 'vfd-drives-guide', title: 'Complete Guide to Variable Frequency Drives', excerpt: 'VFD benefits and selection', date: '2025-03-05', cat: 'Equipment', img: ghRaw + '/images/blog/vfd.jpg' },
+  { slug: 'motor-control-centers', title: 'MCC Panels and Motor Control', excerpt: 'MCC design principles', date: '2025-02-15', cat: 'Switchboard', img: ghRaw + '/images/blog/mcc.jpg' },
+  { slug: 'power-quality', title: 'Power Quality and Harmonic Mitigation', excerpt: 'Power quality improvement', date: '2025-01-20', cat: 'Electrical', img: ghRaw + '/images/blog/power-quality.jpg' },
 ];
 
 function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
@@ -27,7 +28,7 @@ const items = articles.map(a => `
       <description>${esc(a.excerpt)}</description>
       <category>${esc(a.cat)}</category>
       <pubDate>${new Date(a.date).toUTCString()}</pubDate>
-      <enclosure url="${siteUrl}${a.img}" type="image/jpeg" length="0"/>
+      <enclosure url="${a.img}" type="image/jpeg" length="0"/>
     </item>`).join('');
 
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
