@@ -21,9 +21,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "=== Creating Pages site ==="
           gh api repos/${{ github.repository }}/pages --method POST \
             --field source.branch=gh-pages --field source.path=/ \
-            --silent || echo "Pages already enabled"
+            || echo "POST failed: $?"
       - name: Deploy to gh-pages
         run: |
           git config user.name github-actions
@@ -31,8 +32,3 @@ jobs:
           git --work-tree out add --all
           git --work-tree out commit -m "Deploy $(date)"
           git --work-tree out push origin HEAD:gh-pages --force
-      - name: Trigger Pages deployment
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api repos/${{ github.repository }}/pages/deployments --method POST --silent || echo "Triggered"
