@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nimamhn.github.io/surinsf.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/about</loc><priority>0.8</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/services</loc><priority>0.8</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products</loc><priority>0.8</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/electrical-equipment</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/industrial-automation</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/power-plant</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/instrumentation</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/industrial-cables</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/products/switchboards</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog</loc><priority>0.7</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/plc-selection-guide</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/industrial-iot</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/electrical-standards</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/electrical-standards-en</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/vfd-drives-guide</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/motor-control-centers</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/blog/power-quality</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/contact</loc><priority>0.6</priority></url>
-  <url><loc>https://nimamhn.github.io/surinsf.com/faq</loc><priority>0.5</priority></url>
+  <url><loc>https://surinsf.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://surinsf.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://surinsf.com/services</loc><priority>0.8</priority></url>
+  <url><loc>https://surinsf.com/products</loc><priority>0.8</priority></url>
+  <url><loc>https://surinsf.com/products/electrical-equipment</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/products/industrial-automation</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/products/power-plant</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/products/instrumentation</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/products/industrial-cables</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/products/switchboards</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/blog</loc><priority>0.7</priority></url>
+  <url><loc>https://surinsf.com/blog/plc-selection-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/industrial-iot</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/electrical-standards</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/electrical-standards-en</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/vfd-drives-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/motor-control-centers</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/blog/power-quality</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/contact</loc><priority>0.6</priority></url>
+  <url><loc>https://surinsf.com/faq</loc><priority>0.5</priority></url>
 </urlset>
+
 

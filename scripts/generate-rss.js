@@ -1,6 +1,6 @@
 ﻿const fs = require('fs');
 const path = require('path');
-const siteUrl = 'https://nimamhn.github.io/surinsf.com';
+const siteUrl = 'https://surinsf.com';
 
 const ghRaw = 'https://raw.githubusercontent.com/nimamhn/surinsf.com/main/public';
 const articles = [
@@ -45,4 +45,5 @@ const rss = `<?xml version="1.0" encoding="UTF-8"?>
 
 fs.writeFileSync(path.join(__dirname, '..', 'public', 'rss.xml'), rss, 'utf-8');
 console.log('RSS generated');
+
 
